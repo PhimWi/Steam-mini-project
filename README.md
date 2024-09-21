@@ -1,2 +1,2 @@
 # Steam-mini-project
-https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
