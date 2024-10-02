@@ -188,7 +188,14 @@ Negative Reviews
 
 เกมยอดนิยมส่วนใหญ่เป็นแนว Action และ Adventure โดย Counter-Strike: Global Offensive มีรีวิวเชิงบวกสูงสุดถึง 5.76 ล้านรีวิว ในขณะเดียวกันเมื่อดูตามรีวิวเชิงลบกลับพบว่า Counter-Strike ได้อันดับที่ 2 ของเกมที่มีรีวิวเชิงลบมากที่สุดเช่นกัน และเกม 9 จาก 10 อันดับ มาจาก Action genre
 
-****แปะตาราง****
+| Name | Released Year | Owners | Categories | Genres |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| PUBG: Battlegrounds | 2017 | 75000000    | Multi-player,PvP,Online PvP,Stats,Remote Play| Action,Adventure,Free to Play,Massively Multiplayer|
+| New World      | 2021 | 75000000   | Multi-player,MMO,PvP,Online PvP,Co-op     | Action,Adventure,Massively Multiplayer,RPG|
+| Black Myth: Wukong | 2024 | 75000000    | Single-player,Steam Achievements| Action,Adventure,RPG|
+| Tom Clancy’s Rainbow Six Siege   | 2015 | 35000000 | Single-player,Multi-player,PvP| Action|
+| Among Us  | 2018 | 35000000   | Multi-player ,Online PvP, Co-op| Casual|
+
 
 จาก correlation heatmap ที่แสดงถึงความสัมพันธ์เชิงบวกระหว่างจำนวนผู้เล่น (owners) และรีวิวเชิงลบ (Negative column) ทำให้เกิดคำถามว่า ทำไมจำนวนผู้เล่นที่เพิ่มขึ้นถึงสัมพันธ์กับรีวิวเชิงลบ? เมื่อเจาะลึกไปที่เกมประเภท Action ซึ่งมีรีวิวเชิงลบสูงอย่าง PUBG: Battlegrounds และ Tom Clancy's Rainbow Six Siege ที่อยู่ใน top 5 ของเกมที่มีผู้เล่นมากที่สุดในช่วง 10 ปี มีส่วนทำให้เกิดความสัมพันธ์นี้หรือไม่? หรือเป็นไปได้ว่า เมื่อมีผู้เล่นมากขึ้น การคาดหวังหรือประสบการณ์ของผู้เล่นนั้นเปลี่ยนไป ส่งผลให้เกิดการวิจารณ์ในด้านลบมากขึ้น?
 
