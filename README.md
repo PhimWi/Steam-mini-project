@@ -155,7 +155,21 @@ Correlation heatmap แสดงให้เห็นว่า คอลัม�
 
 Positive Reviews
 
-****แปะตาราง****
+| Name | Genres | Positive | Negative | Released Year |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| Counter-Strike: Global Offensive   | Action,Free to Play    | 5764420    | 766677 | 2012 |
+| Dota 2   | Action,Free to Play,Strategy    | 1477153    | 300437 | 2013|
+| Grand Theft Auto V| Action, Adventure | 1171197    | 210154 | 2015|
+| PUBG: Battlegrounds| Action,Adventure,Free to Play,Massively Multiplayer | 1154655 | 895978 | 2017|
+| Terraria   | Action,Adventure,Indie,RPG    | 964983    | 21044 | 2011|
+| Tom Clancy’s Rainbow Six Siege | Action | 929372    | 138530 | 2015|
+| Team Fortress 2   | Action,Free to Play    | 823693    | 56683 | 2007|
+| Garry’s Mod   | Indie,Simulation    | 822326    | 29004 | 2006|
+| Rust   | Action,Adventure,Indie,Massively Multiplayer, RPG    | 703687    | 108223 | 2018|
+| Black Myth: Wukong   | Action,Adventure,RPG    | 663109    | 28700 | 2024|
+
+
+
 
 Negative Reviews
 
