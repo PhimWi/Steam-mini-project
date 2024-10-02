@@ -22,6 +22,16 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 อย่างแรกได้ทำการแบ่ง categories ของเกมว่า categories ไหนมีจำนวนเกมมากที่สุด 10 อันดับแรก พบว่า 'Single-player' มีจำนวนเกมมากที่สุด โดยมีจำนวนเกมถึง 86,889 เกม มากกว่าอันดับที่ 2 อย่าง 'Steam Achievments' 2.11 เท่า
 
+![Number of Games in Each Category]()
+
+เมื่อทำการดูแนวโน้มของ categories ในช่วง 10 ปีที่ผ่านมา พบว่า 'Single-player' มีจำนวนเกมที่มากที่สุด ซึ่งสอดคล้องกันกับกราฟด้านบน และมีแนวโน้มที่เพิ่มขึ้นเรื่อย ๆ
+
+![Number of Games Per Category Over Time]()
+
+เมื่อทำการวิเคราะห์จำนวนการเป็นเจ้าของเกมตาม categories พบว่า 'Single-player' ยังคงเป็นหมวดหมู่ที่มีจำนวนเกมและการครอบครองสูงที่สุด โดยมียอดการซื้อสะสมสูงถึง 5.89 พันล้านครั้ง
+
+![Top 10 Categories by Total Owners]()
+
 # Genres
 
 # Playtime
