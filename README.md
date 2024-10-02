@@ -11,9 +11,9 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 * [Playtime](#Playtime)
 * [Game Price](#Price)
 * [Systems](#Systems)
-* [Developer and Publisher](#Developer&Publisher)
+* [Developer and Publisher](#DeveloperAndPublisher)
 * [Correlation](#Correlation)
-* [Positive and Negative Review](#Positive&Negative)
+* [Positive and Negative Review](#PositiveAndNegative)
 * [Summary](#Summary)
 
 ---
@@ -119,7 +119,7 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 
 
-# Developer&Publisher
+# DeveloperAndPublisher
 
 จากการสำรวจข้อมูล พบว่า Developer และ Publisher แต่ละรายมีจำนวนการซื้อเกมที่แตกต่างกัน ซึ่งสะท้อนให้เห็นถึงความหลากหลายของตลาดเกมและความชอบที่แตกต่างกันของผู้เล่นในแต่ละประเภทเกม
 
@@ -149,7 +149,7 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 
 
-# Positive&Negative
+# PositiveAndNegative
 
 Correlation heatmap แสดงให้เห็นว่า คอลัมน์ 'Positive' และ 'Negative' มี positive correlation ร่วมกันที่ 0.78 จึงทำการ sort ข้อมูลและเลือกเกมที่มีคะแนน Positive อันดับแรกคือ CSGO มาเพื่อ ดึงข้อมูลรีวิวของเกมเพิ่มเติม
 
