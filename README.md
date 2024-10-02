@@ -153,7 +153,7 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 Correlation heatmap แสดงให้เห็นว่า คอลัมน์ 'Positive' และ 'Negative' มี positive correlation ร่วมกันที่ 0.78 จึงทำการ sort ข้อมูลและเลือกเกมที่มีคะแนน Positive อันดับแรกคือ CSGO มาเพื่อ ดึงข้อมูลรีวิวของเกมเพิ่มเติม
 
-Positive Reviews
+> Positive Reviews
 
 | Name | Genres | Positive | Negative | Released Year |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
