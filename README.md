@@ -6,9 +6,14 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 **List of Contents**
 
+* [Game Categories](#Categories)
 * [Summary](#Summary)
 
 ---
+
+# Categories
+
+
 
 
 
@@ -62,4 +67,10 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 ---
 
 # Reference
+
+
+# Members
+
+* 6620412008
+* 6620412004
 
