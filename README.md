@@ -170,7 +170,7 @@ Correlation heatmap แสดงให้เห็นว่า คอลัม�
 
 
 
-Negative Reviews
+> Negative Reviews
 
 | Name | Genres | Positive | Negative | Released Year |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
