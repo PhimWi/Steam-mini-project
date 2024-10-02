@@ -22,15 +22,15 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 อย่างแรกได้ทำการแบ่ง categories ของเกมว่า categories ไหนมีจำนวนเกมมากที่สุด 10 อันดับแรก พบว่า 'Single-player' มีจำนวนเกมมากที่สุด โดยมีจำนวนเกมถึง 86,889 เกม มากกว่าอันดับที่ 2 อย่าง 'Steam Achievments' 2.11 เท่า
 
-![Number of Games in Each Category]()
+![Number of Games in Each Category](https://github.com/wand-work/steam_year_stats/blob/main/Number%20of%20Games%20in%20Each%20Category.png)
 
 เมื่อทำการดูแนวโน้มของ categories ในช่วง 10 ปีที่ผ่านมา พบว่า 'Single-player' มีจำนวนเกมที่มากที่สุด ซึ่งสอดคล้องกันกับกราฟด้านบน และมีแนวโน้มที่เพิ่มขึ้นเรื่อย ๆ
 
-![Number of Games Per Category Over Time]()
+![Number of Games Per Category Over Time](https://github.com/wand-work/steam_year_stats/blob/main/Number%20of%20Games%20Per%20Category%20Over%20Time.png)
 
 เมื่อทำการวิเคราะห์จำนวนการเป็นเจ้าของเกมตาม categories พบว่า 'Single-player' ยังคงเป็นหมวดหมู่ที่มีจำนวนเกมและการครอบครองสูงที่สุด โดยมียอดการซื้อสะสมสูงถึง 5.89 พันล้านครั้ง
 
-![Top 10 Categories by Total Owners]()
+![Top 10 Categories by Total Owners](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Categories%20by%20Total%20Owners.png)
 
 
 
@@ -38,15 +38,15 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 ต่อมาได้ทำการแบ่ง genres ของเกมว่า genres ไหนมีจำนวนมากที่สุด 10 อันดับแรก พบว่า 'Indie' มีจำนวนเกมมากที่สุด โดยมีจำนวนเกมอยู่ที่ 64,501 เกม มากกว่าอันดับที่ 2 อย่าง 'Casual' 1.64 เท่า
 
-![Number of Games in Each Genre]()
+![Number of Games in Each Genre](https://github.com/wand-work/steam_year_stats/blob/main/Number%20of%20Games%20in%20Each%20Genre.png)
 
 เมื่อทำการดูแนวโน้มของ genres ในช่วง 10 ปีที่ผ่านมา พบว่า 'Indie' มีจำนวนเกมที่มากที่สุด ซึ่งสอดคล้องกันกับกราฟด้านบน และมีแนวโน้มที่เพิ่มขึ้นเรื่อย ๆ เช่นเดียวกัน
 
-![Number of Games Per Genre Over Time]()
+![Number of Games Per Genre Over Time](https://github.com/wand-work/steam_year_stats/blob/main/Number%20of%20Games%20Per%20Genre%20Over%20Time.png)
 
 เมื่อทำการวิเคราะห์จำนวนการเป็นเจ้าของเกมตาม genre พบว่าแม้ 'Indie' จะมีจำนวนเกมมากที่สุด แต่ยอดซื้อกลับน้อยกว่า 'Action' ซึ่งเป็นหมวดหมู่ที่มีจำนวนการเป็นเจ้าของสูงที่สุด โดยมียอดการซื้อสะสมถึง 4.749 พันล้านครั้ง สวนทางกับจำนวนเกมในหมวด 'Action' ที่อยู่ในอันดับที่ 3 แสดงให้เห็นว่าผู้เล่นมีความชื่นชอบในเกมประเภท 'Action' มากกว่า 'Indie'
 
-![Top 10 Genre by Total Owners]()
+![Top 10 Genre by Total Owners](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Genre%20by%20Total%20Owners.png)
 
 
 
@@ -94,14 +94,14 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 ในส่วนของราคาเกมบน Steam ได้ทำการดูการกระจายตัวของราคาเกม พบว่าราคาส่วนใหญ่อยู่ในช่วงต่ำกว่า 10 ดอลลาร์ โดยเฉพาะในช่วงราคาที่ต่ำกว่า 5 ดอลลาร์นั้นเป็นช่วงที่มีจำนวนมากที่สุด ซึ่งค่าเฉลี่ยของราคาอยู่ที่ 7.09 ดอลลาร์ แสดงให้เห็นว่าราคาส่วนใหญ่ต่ำกว่าค่าเฉลี่ยนี้ อีกทั้งฮิสโตแกรมมีลักษณะเบ้ขวา (Skewed Right) หมายความว่ามีเกมบางส่วนที่มีราคาสูง แต่ก็มีจำนวนที่น้อยมาก
 
-![Histogram of Prices with Ranges]()
+![Histogram of Prices with Ranges](https://github.com/wand-work/steam_year_stats/blob/main/Histogram%20of%20Prices%20with%20Ranges.png)
 
 มื่อเจาะลึกลงไปตาม genre พบว่า
 * เกมประเภท Casual มีจำนวนเกมส่วนมากอยู่ที่ราคาต่ำที่สุด โดยกระจุกตัวอยู่ในช่วงราคาที่ต่ำกว่า 5 ดอลลาร์
 * เกมประเภท Action และ Indie มีการกระจายตัวที่กว้างกว่าในช่วงราคา 5 - 20 ดอลลาร์ ซึ่งบ่งบอกว่าเกมในประเภทนี้มีราคาที่หลากหลายกว่าเมื่อเทียบกับ Casual
 * เกมในหมวด Adventure และ Simulation มีความหนาแน่นที่ต่ำกว่าประเภทอื่น ๆ ในช่วงราคา 0 - 10 ดอลลาร์ และมีความหนาแน่นที่กระจายตัวไปจนถึงราคาประมาณ 20 ดอลลาร์ แสดงว่าเกมในหมวดนี้ มีราคาที่สูงขึ้นกว่า เกม Casual, Indie
 
-![Distribution of Prices for Top 5 Genres]()
+![Distribution of Prices for Top 5 Genres](https://github.com/wand-work/steam_year_stats/blob/main/Distribution%20of%20Prices%20for%20Top%205%20Genres.png)
 
 
 
@@ -111,11 +111,11 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 เมื่อวิเคราะห์ผู้พัฒนาที่ผลิตเกมรองรับทั้งสามระบบปฏิบัติการ พบว่า Choice of Games ครองอันดับสูงสุด ด้วยจำนวนเกมที่รองรับทั้งสามระบบถึง 159 เกม ซึ่งมากกว่าอันดับที่สองอย่าง Hosted Games ถึง 34.59% ข้อมูลนี้อาจบ่งชี้ว่า Choice of Games เป็นผู้พัฒนาที่มีเงินทุนสูงหรือมีจำนวนทีมงานที่มาก
 
-![Top 10 Developers All Systems Supported]()
+![Top 10 Developers All Systems Supported](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Developers%20All%20Systems%20Supported.png)
 
 เมื่อวิเคราะห์ผู้จัดจำหน่ายที่ผลิตเกมรองรับทั้งสามระบบปฏิบัติการ พบว่า Choice of Games ครองอันดับสูงสุด ด้วยจำนวนเกมที่รองรับทั้งสามระบบถึง 159 เกม ซึ่งมากกว่าอันดับที่สองอย่าง Hede ถึง 21.38% ข้อมูลนี้สอดคล้องกับการวิเคราะห์ผู้พัฒนาที่ผลิตเกมรองรับทั้งสามระบบปฏิบัติการ โดยชี้ให้เห็นว่าเกมจาก Choice of Games มีแนวโน้มสูงที่จะออกเกมใหม่ที่สามารถรองรับทั้งสามระบบปฏิบัติการได้อย่างต่อเนื่อง
 
-![Top 10 Publishers All Systems Supported]()
+![Top 10 Publishers All Systems Supported](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Publishers%20All%20Systems%20Supported.png)
 
 
 
@@ -123,11 +123,11 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 จากการสำรวจข้อมูล พบว่า Developer และ Publisher แต่ละรายมีจำนวนการซื้อเกมที่แตกต่างกัน ซึ่งสะท้อนให้เห็นถึงความหลากหลายของตลาดเกมและความชอบที่แตกต่างกันของผู้เล่นในแต่ละประเภทเกม
 
-![Top 10 Developers by Total Owners]()
+![Top 10 Developers by Total Owners](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Developers%20by%20Total%20Owners.png)
 
 จากกราฟจะเห็นได้ว่า จำนวนการซื้อเกมของ Valve มีจำนวนที่มากที่สุด โดยมีสัดส่วนจำนวนการซื้อเกมมากกว่า 9 ลำดับที่เหลืออย่างเห็นได้ชัด โดยมีสัดส่วนมากกว่าลำดับที่ 2 อย่าง Game Science ถึง 6.51 เท่า
 
-![Top 10 Publishers by Total Owners]()
+![Top 10 Publishers by Total Owners](https://github.com/wand-work/steam_year_stats/blob/main/Top%2010%20Publishers%20by%20Total%20Owners.png)
 
 จะเห็นได้ว่า ไม่ว่าจะเป็นผู้พัฒนา หรือผู้จัดจำหน่าย Valve ก็มีการขายเกมในจำนวนที่มากกว่าทุก ๆ เจ้า เมื่อลองทำการเจาะลึกลงไปจึงพบว่า Valve เป็นค่ายเกมที่ผลิตเกม อย่าง Counter-Strike ออกมา ซึ่งเกมนี้ที่เป็นที่นิยมเป็นอย่างมาก จึงทำให้ Valve ครองอันดับแรกของทั้ง 2 หัวข้อนี้ไปได้
 
@@ -141,7 +141,7 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 คอลัมน์ที่เลือกในการดูความสัมพันธ์ ได้แก่ คอลัมน์ 'Price', 'Avg_playtime', 'Positive', 'Negative', 'Windows', 'Mac', 'Linux' และ 'owners'
 
-![Correlation Heatmapl Owners]()
+![Correlation Heatmapl Owners](https://github.com/wand-work/steam_year_stats/blob/main/Correlation%20Heatmapl%20Owners.png)
 
 จากกราฟ Correlation Heatmap แสดงให้เห็นถึงความสัมพันธ์ระหว่างตัวแปรต่าง ๆ โดยพบว่าความสัมพันธ์ของรีวิวเชิงบวกและเชิงลบมีความสัมพันธ์กันเป็นอย่างมาก ซึ่งมีค่า Correlation สูงถึง 0.78 แสดงว่าผู้เล่นที่ให้รีวิวดีมักจะมีรีวิวไม่ดีในบางกรณี
 
@@ -201,7 +201,7 @@ Negative Reviews
 
 ได้ทำการ scrape ข้อมูลรีวิวโดยใช้ credit : https://apify.com/
 
-![Frequency of Sentiment Scores]()
+![Frequency of Sentiment Scores](https://github.com/wand-work/steam_year_stats/blob/main/Frequency%20of%20Sentiment%20Scores.png)
 
 เมื่อความคิดเห็นมาวิเคราะห์ พบว่าคะแนนออกไปทาง Positive
 
@@ -214,11 +214,11 @@ credit : https://shap.readthedocs.io/en/latest/example_notebooks/text_examples/s
 
 โดยคำที่ไฮไลท์สีฟ้าเป็นคำที่ SHAP วิเคราะห์ออกมาว่าเป็น Negative และสีแดงเป็น Positive
 
-![Shap Word Values]()
+![Shap Word Values](https://github.com/wand-work/steam_year_stats/blob/main/shap-negative.png)
 
 เมื่อทำการวิเคราะห์คอมเมนต์พบว่ารีวิวที่เป็น Positive มักจะมีคำที่พบได้บ่อยดังนี้
 
-![Shap Review Values]()
+![Shap Review Values](https://github.com/wand-work/steam_year_stats/blob/main/shapplotbar.png)
 
 
 
