@@ -47,6 +47,11 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 ![Top 10 Genre by Total Owners]()
 
 # Playtime
+| Year | Category | Maximum playtime in Year |
+|-----------------|-----------------|-----------------|
+| 2014   | Single-player    | 849.1 hrs    |
+| 2015   | Single-player    | 1323.7 hrs    |
+| 2016   | Single-player    | 1857.25 hrs    |
 
 # Systems
 
