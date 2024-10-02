@@ -7,15 +7,28 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 **List of Contents**
 
 * [Game Categories](#Categories)
+* [Game Genres](#Genres)
+* [Playtime](#Playtime)
+* [Game Price](#Price)
+* [Systems](#Systems)
+* [Developer and Publisher](#Developer&Publisher)
+* [Game Categories](#Correlation)
+* [Positive and Negative Review](#Positive&Negative)
 * [Summary](#Summary)
 
 ---
 
 # Categories
 
+# Genres
 
+# Playtime
 
+# Systems
 
+# Developer&Publisher
+
+# Positive&Negative
 
 # Summary
 
