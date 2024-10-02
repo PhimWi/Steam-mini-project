@@ -170,12 +170,23 @@ Positive Reviews
 
 
 
-
 Negative Reviews
 
-****แปะตาราง****
+| Name | Genres | Positive | Negative | Released Year |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| PUBG: Battlegrounds | Action,Adventure,Free to Play,Massively Multiplayer | 1154655    | 895978 | 2017 |
+| Counter-Strike: Global Offensive      | Action,Free to Play | 5764420   | 766677 | 2012|
+| Dota 2 | Action, Free to Play, Strategy | 1477153    | 300437 | 2013|
+| Grand Theft Auto V | Action,Adventure | 1171197 | 210154 | 2015|
+| Tom Clancy’s Rainbow Six Siege   | Action | 929372   | 138530 | 2015|
+| Cyberpunk 2077 | RPG | 391643    | 129925 | 2020|
+| Dead by Daylight   | Action | 494648    | 112924 | 2016|
+| Rust   | Action,Adventure,Indie,Massively Multiplayer,RPG| 703687    | 108223| 2018|
+| Battlefield 2042  | Action,Adventure,Casual | 39121    | 106038 | 2021|
+| 鬼谷八荒 Tale of Immortal | Action,Adventure,Indie,RPG,Simulation,Early Access    | 105384   | 103661 | 2021|
 
-เกมยอดนิยมส่วนใหญ่เป็นแนว Action และ Adventure โดย Counter-Strike: Global Offensive มีรีวิวเชิงบวกสูงสุดถึง 5.76 ล้านรีวิว ในขณะเดียวกันเมื่อดูตามรีวิวเชิงลบกลับพบว่า Counter-Strike ได้อันดับที่ 2 ของเกมที่มีรีวิวเชิงลบมากที่สุดเช่นกัน และเกม 9 อันดับแรก มาจาก Action genre
+
+เกมยอดนิยมส่วนใหญ่เป็นแนว Action และ Adventure โดย Counter-Strike: Global Offensive มีรีวิวเชิงบวกสูงสุดถึง 5.76 ล้านรีวิว ในขณะเดียวกันเมื่อดูตามรีวิวเชิงลบกลับพบว่า Counter-Strike ได้อันดับที่ 2 ของเกมที่มีรีวิวเชิงลบมากที่สุดเช่นกัน และเกม 9 จาก 10 อันดับ มาจาก Action genre
 
 ****แปะตาราง****
 
