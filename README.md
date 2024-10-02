@@ -283,6 +283,6 @@ credit : https://shap.readthedocs.io/en/latest/example_notebooks/text_examples/s
 
 # Members
 
-* 6620412004
+* 6620412004 Wandita Wongsinthon
 * 6620412008 Phimpatra Wibulrithi
 
