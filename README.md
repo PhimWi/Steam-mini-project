@@ -12,7 +12,7 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 * [Game Price](#Price)
 * [Systems](#Systems)
 * [Developer and Publisher](#Developer&Publisher)
-* [Game Categories](#Correlation)
+* [Correlation](#Correlation)
 * [Positive and Negative Review](#Positive&Negative)
 * [Summary](#Summary)
 
@@ -131,9 +131,64 @@ Dataset imported from: https://www.kaggle.com/datasets/fronkongames/steam-games-
 
 จะเห็นได้ว่า ไม่ว่าจะเป็นผู้พัฒนา หรือผู้จัดจำหน่าย Valve ก็มีการขายเกมในจำนวนที่มากกว่าทุก ๆ เจ้า เมื่อลองทำการเจาะลึกลงไปจึงพบว่า Valve เป็นค่ายเกมที่ผลิตเกม อย่าง Counter-Strike ออกมา ซึ่งเกมนี้ที่เป็นที่นิยมเป็นอย่างมาก จึงทำให้ Valve ครองอันดับแรกของทั้ง 2 หัวข้อนี้ไปได้
 
+---
+
+จากการสำรวจและวิเคราะห์ข้อมูลข้างต้น ทำให้เห็นถึงแนวโน้มของตลาดบนแพลตฟอร์ม Steam ว่าเป็นอย่างไร จึงเกิดข้อสงสัยว่าอะไรคือปัจจัยที่ส่งผลต่อการเลือกซื้อเกมบนแพลตฟอร์ม Steam
+
+---
+
+# Correlation
+
+คอลัมน์ที่เลือกในการดูความสัมพันธ์ ได้แก่ คอลัมน์ 'Price', 'Avg_playtime', 'Positive', 'Negative', 'Windows', 'Mac', 'Linux' และ 'owners'
+
+![Correlation Heatmapl Owners]()
+
+จากกราฟ Correlation Heatmap แสดงให้เห็นถึงความสัมพันธ์ระหว่างตัวแปรต่าง ๆ โดยพบว่าความสัมพันธ์ของรีวิวเชิงบวกและเชิงลบมีความสัมพันธ์กันเป็นอย่างมาก ซึ่งมีค่า Correlation สูงถึง 0.78 แสดงว่าผู้เล่นที่ให้รีวิวดีมักจะมีรีวิวไม่ดีในบางกรณี
+
+นอกจากนี้รีวิวเชิงบวกและลบยังมีความสัมพันธ์สูงกับ จำนวนผู้ใช้งาน (Owners) ที่ 0.67 และ 0.63 ตามลำดับ ซึ่งแสดงให้เห็นว่าจำนวนรีวิวมีผลต่อการเพิ่มจำนวนผู้เล่น จึงได้ข้อสงสัยว่าลักษณะเกมแบบไหนที่มักจะได้รับรีวิวเชิงบวกและลบ
+
 
 
 # Positive&Negative
+
+Correlation heatmap แสดงให้เห็นว่า คอลัมน์ 'Positive' และ 'Negative' มี positive correlation ร่วมกันที่ 0.78 จึงทำการ sort ข้อมูลและเลือกเกมที่มีคะแนน Positive อันดับแรกคือ CSGO มาเพื่อ ดึงข้อมูลรีวิวของเกมเพิ่มเติม
+
+Positive Reviews
+
+****แปะตาราง****
+
+Negative Reviews
+
+****แปะตาราง****
+
+เกมยอดนิยมส่วนใหญ่เป็นแนว Action และ Adventure โดย Counter-Strike: Global Offensive มีรีวิวเชิงบวกสูงสุดถึง 5.76 ล้านรีวิว ในขณะเดียวกันเมื่อดูตามรีวิวเชิงลบกลับพบว่า Counter-Strike ได้อันดับที่ 2 ของเกมที่มีรีวิวเชิงลบมากที่สุดเช่นกัน และเกม 9 อันดับแรก มาจาก Action genre
+
+****แปะตาราง****
+
+จาก correlation heatmap ที่แสดงถึงความสัมพันธ์เชิงบวกระหว่างจำนวนผู้เล่น (owners) และรีวิวเชิงลบ (Negative column) ทำให้เกิดคำถามว่า ทำไมจำนวนผู้เล่นที่เพิ่มขึ้นถึงสัมพันธ์กับรีวิวเชิงลบ? เมื่อเจาะลึกไปที่เกมประเภท Action ซึ่งมีรีวิวเชิงลบสูงอย่าง PUBG: Battlegrounds และ Tom Clancy's Rainbow Six Siege ที่อยู่ใน top 5 ของเกมที่มีผู้เล่นมากที่สุดในช่วง 10 ปี มีส่วนทำให้เกิดความสัมพันธ์นี้หรือไม่? หรือเป็นไปได้ว่า เมื่อมีผู้เล่นมากขึ้น การคาดหวังหรือประสบการณ์ของผู้เล่นนั้นเปลี่ยนไป ส่งผลให้เกิดการวิจารณ์ในด้านลบมากขึ้น?
+
+ได้ทำการ scrape ข้อมูลรีวิวโดยใช้ credit : https://apify.com/
+
+![Frequency of Sentiment Scores]()
+
+เมื่อความคิดเห็นมาวิเคราะห์ พบว่าคะแนนออกไปทาง Positive
+
+
+## SHAP Positive vs. Negative Sentiment Classification
+
+เนื่องจากการดึงข้อมูลข้างต้นยังไม่สามารถแสดงภาพที่ชัดเจนได้ จึงได้นำ SHAP มาใช้ในการวิเคราะห์เชิงอารมณ์ (Sentiment Analysis) เพื่อทำความเข้าใจเชิงลึกเกี่ยวกับความรู้สึกของผู้เล่นต่อเกมในแต่ละหมวดหมู่ โดย SHAP จะช่วยให้เรามองเห็นปัจจัยต่าง ๆ ที่ส่งผลต่อความชอบและความพึงพอใจของผู้เล่นอย่างชัดเจนมากยิ่งขึ้น
+
+credit : https://shap.readthedocs.io/en/latest/example_notebooks/text_examples/sentiment_analysis/Positive%20vs.%20Negative%20Sentiment%20Classification.html#Load-the-IMDB-movie-review-dataset
+
+โดยคำที่ไฮไลท์สีฟ้าเป็นคำที่ SHAP วิเคราะห์ออกมาว่าเป็น Negative และสีแดงเป็น Positive
+
+![Shap Word Values]()
+
+เมื่อทำการวิเคราะห์คอมเมนต์พบว่ารีวิวที่เป็น Positive มักจะมีคำที่พบได้บ่อยดังนี้
+
+![Shap Review Values]()
+
+
 
 # Summary
 
