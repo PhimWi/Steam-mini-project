@@ -272,10 +272,17 @@ credit : https://shap.readthedocs.io/en/latest/example_notebooks/text_examples/s
 ---
 
 # Reference
+* https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+  Kaggle dataset
+* https://apify.com/
+  Web scraping
+* https://shap.readthedocs.io/en/latest/example_notebooks/text_examples/sentiment_analysis/Positive%20vs.%20Negative%20Sentiment%20Classification.html#Load-the-IMDB-movie-review-dataset
+  SHAP Sentimental Analysis
+
 
 
 # Members
 
-* 6620412008
 * 6620412004
+* 6620412008 Phimpatra Wibulrithi
 
